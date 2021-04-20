@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  height: 100vh;
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+body #main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #main #main-section {
+  width: 70%;
+  height: 100vh;
+}
+
+body #main #main-section #title {
+  padding: 50px 0px;
+}
+
+body #main #main-section #title #title-text {
+  font-size: 72px;
+  display: block;
+  margin: auto;
+}
+
+body #main #main-section #title #breaker {
+  margin: auto;
+  width: 250px;
+  height: 3px;
+  background-color: #add8e6;
+}
+
+body #main #main-section #review-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  width: 85%;
+  margin: auto;
+  padding: 75px 0px;
+  border-radius: 75px;
+  border: 3px solid #add8e6;
+  -webkit-box-shadow: 2px 2px 15px 2px #000;
+          box-shadow: 2px 2px 15px 2px #000;
+}
+
+body #main #main-section #review-block #review-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+}
+
+body #main #main-section #review-block #slider-container {
+  margin-bottom: 50px;
+}
+
+#image {
+  width: 150px;
+  height: 150px;
+  image-resolution: 90px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#name {
+  font-size: 32px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+#job {
+  color: #add8e6;
+}
+
+#slider-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#slider-container #left-slider {
+  color: #000;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 25%;
+}
+
+#slider-container #left-slider:hover {
+  background-color: #b8b8b8;
+}
+
+#slider-container #right-slider {
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 25%;
+}
+
+#slider-container #right-slider:hover {
+  background-color: #b8b8b8;
+}
+
+@media (max-width: 800px) {
+  #main-section {
+    padding-bottom: 100px;
+  }
+  #review-text {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
