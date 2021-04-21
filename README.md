@@ -10,7 +10,7 @@ I learned about the use of objects and how to manipulate the DOM using event lis
 * Using functions & arrow functions
 * Destructuring objects
 * Using the .length method to create a loop
-* How live updates are made to the page
+* How multiple live updates are made to the page
 
 ### What I learned about SASS
 
