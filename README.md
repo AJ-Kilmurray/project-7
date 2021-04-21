@@ -18,7 +18,7 @@ I learned about the use of objects and how to manipulate the DOM using event lis
 * Variables
 * Hierarchy
 * SASS --> CSS conversion
-* SCSS vs SASS formatting/syntax
+* SCSS vs SASS formatting/syntax (SCSS appears to seem more fun)
 
 ### Things to be improved
-This project took slightly longer than the other two previous projects, due to there being more code, as well as learning about SASS.
+This project took slightly longer than the other two previous projects, due to there being more code, as well as learning about SASS. However, I'd like to come back to this project in the future and optimise the code, as well as improve the design.
